@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    box-shadow: 0px 0px 5px 1px    grey;
+    border: 1px solid rgb(222, 222, 222);
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.gender {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.gen1, .gen2, .gen3 {
+    border-radius: 5px;
+    border: 1px solid rgb(222, 222, 222);
+    padding: 10px 41px;
+}
+#heading1 {
+    font-size: 37px;
+}
+#heading2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+.first-row input {
+    background-color: rgb(245, 246, 247);
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 47%;
+    border: 1px solid rgb(222, 222, 222);
+    height: 35px;
+}
+.bday {
+    display: flex;
+    justify-content: space-around;
+}
+.bday select{
+    padding: 5px 20px;
+}
+#mail, #pass {
+    background-color: rgb(245, 246, 247);
+    padding: 15px 10px;
+    margin: 10px 0px 0px 0px;
+}
+#sign {
+    margin-top: 20px;
+    margin-left: 160px;
+    border: none;
+    background: rgb(23, 163, 26);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+#hamgindod {
+    margin-top: 20px;
+    font-size: 12px;
+    color: grey
+}
+#heading2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: grey;
+}
+#mail, #pass {
+    border-radius: 5px;
+    border: 1px solid rgb(222, 222, 222);
+}
+.bday select {
+    margin-top: 10px;
+    padding: 10px 54px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+}

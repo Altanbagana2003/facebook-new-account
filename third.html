@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="third.css">
+</head>
+<body>
+    <form method="POST">
+        <div class="container">
+            <p id="heading1">Sign Up</p>
+            <p id="heading2">It's quick and easy.</p>
+            <hr>
+            <br>
+            <div class="first-row">
+                <input type="text" name="firstname" id="fname" placeholder="First name" required>
+                <input type="text" name="password" id="lname" placeholder="Last name" required>
+            </div>
+            <input type="email" name="mail" id="mail" placeholder="Mobile number or email" required patter=".@gmail.com" maxlength="30">
+            <input type="password" name="pass" id="pass" placeholder="New password" maxlength="10" required>
+            <br>
+            <label for="bday">Birthday</label>
+            <div class="bday">
+                <select name="birthday-month" id="month" required>
+                    <option value="0">Month</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="birthday-day" id="day" required>
+                    <option value="0">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="birthday-year" id="year" required>
+                    <option value="0">Year</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <br>
+            <label for="gender">Gender</label>
+            <div class="gender">
+                <div class="gen1">
+                    <label for="male">Gender</label>  
+                    <input type="radio" name="gender"id="male" required>
+                </div>
+                <div class="gen2">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" required>
+                </div>
+                <div class="gen3">
+                    <label for="custom">Custom</label>
+                    <input type="radio" name="gender" id="custom" required>
+                </div>
+            </div>
+            <p id="hamgindod">By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+    </form>
+        <button type="submit" id="sign">Sign Up</button>
+    </div>
+</body>
+</html>
